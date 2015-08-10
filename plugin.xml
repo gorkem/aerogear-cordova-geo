@@ -66,8 +66,7 @@
         <service android:enabled="true" android:name="org.jboss.aerogear.cordova.geo.GeofencingService" />
     </config-file>
 
-    <framework src="com.google.android.gms:play-services-base:6.5.+"/>
-    <framework src="com.google.android.gms:play-services-location:6.5.+"/>
+    <framework src="com.google.android.gms:play-services:6.5.+"/>
     
 
     <source-file src="src/android/org/jboss/aerogear/cordova/geo/Geofence.java" target-dir="src/org/jboss/aerogear/cordova/geo/"/>
